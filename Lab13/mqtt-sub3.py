@@ -8,8 +8,8 @@ import redis
 #####  Set constant values for MQTT broker   ##############
 
 BrokerAddress = "127.0.0.1"              # Local MQTT 
-#BrokerAddress = "test.mosquitto.org"    # Cloud MQTT
-MqttTopic = "piper-jp"
+BrokerAddress = "test.mosquitto.org"    # Cloud MQTT
+MqttTopic = "jmatsu5924"
 
 ###########################################################
 #####  Set constant values for Radis  #####################
@@ -18,18 +18,18 @@ RedisKey = "RPIvalue"
 
 ##########################
 ### For Local Redis 
-RedisHost = "127.0.0.1"                  
-RedisPort = "6379"
-RedisPwd = ""
+#RedisHost = "127.0.0.1"                  
+#RedisPort = "12582"
+#RedisPwd = ""
 ##########################
 
 ##########################
 ### For using RadisLabs
 ### You need to change RedisHost,RedisPort and RedisPwd below
 
-#RedisHost = "redis-13596.c1.us-west-2-2.ec2.cloud.redislabs.com"  
-#RedisPort = "13596"
-#RedisPwd = "3MV84ByCxPKkifKavxkCYQ7tv6Zf0Fzq"
+RedisHost = "redis-12582.c294.ap-northeast-1-2.ec2.cloud.redislabs.com"  
+RedisPort = "12582"
+RedisPwd = "C86nnyVvbwHJ74vm6drxNZYQX263Gdo5"
 ##########################
 
 ###########################################################
